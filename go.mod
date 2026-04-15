@@ -52,3 +52,6 @@ require (
 
 // Personal fork: using my own module path for local experimentation
 // To use this fork: replace github.com/ankitpokhrel/jira-cli => ../jira-cli
+
+// NOTE: bumping go-jira to pick up any upstream bug fixes; keeping an eye on
+// https://github.com/andygrunwald/go-jira/issues for pagination improvements.
