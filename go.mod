@@ -55,3 +55,7 @@ require (
 
 // NOTE: bumping go-jira to pick up any upstream bug fixes; keeping an eye on
 // https://github.com/andygrunwald/go-jira/issues for pagination improvements.
+
+// TODO: consider replacing go-jira with go-jira/v2 once it stabilizes;
+// v2 has better context support and cleaner pagination API.
+// Tracking: https://github.com/andygrunwald/go-jira/tree/v2
