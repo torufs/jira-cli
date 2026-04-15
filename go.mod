@@ -49,3 +49,6 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// Personal fork: using my own module path for local experimentation
+// To use this fork: replace github.com/ankitpokhrel/jira-cli => ../jira-cli
